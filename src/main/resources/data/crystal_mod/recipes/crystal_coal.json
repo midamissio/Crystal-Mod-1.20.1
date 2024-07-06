@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "ingredients",
+  "group": "crystal",
+  "key": {
+    "#": {
+      "item": "crystal_mod:crystal"
+    },
+    "C": {
+      "item": "minecraft:coal"
+    }
+  },
+  "pattern": [
+    "#C"
+  ],
+  "result": {
+    "count": 1,
+    "item": "crystal_mod:crystal_coal"
+  },
+  "show_notification": true
+}

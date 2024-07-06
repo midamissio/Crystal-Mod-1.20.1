@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "crystal_mod:crystal_shard"
+    }
+  },
+  "result": {
+    "item": "crystal_mod:crystal",
+    "count": 1
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "item.crystal_mod.crystal_shard": "Crystal Shard",
+  "item.crystal_mod.crystal": "Crystal",
+  "item.crystal_mod.crystal_coal": "Crystal Coal",
+
+  "item.crystal_mod.crystal_detector": "Crystal Detector",
+
+  "item.crystal_mod.crystal_pickaxe": "Crystal Pickaxe",
+  "item.crystal_mod.crystal_sword": "Crystal Sword",
+  "item.crystal_mod.crystal_axe": "Crystal Axe",
+  "item.crystal_mod.crystal_shovel": "Crystal Shovel",
+  "item.crystal_mod.crystal_hoe": "Crystal Hoe",
+
+  "block.crystal_mod.crystal_block": "Block of Crystal",
+
+  "block.crystal_mod.crystal_ore": "Crystal Ore",
+
+  "creativetab.crystal_tab": "Crystal Mod",
+
+  "tooltip.crystal_mod.crystal_detector.tooltip": "Finds crystal ores underground in 1 block radius."
+}
