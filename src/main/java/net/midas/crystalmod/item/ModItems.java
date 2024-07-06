@@ -22,19 +22,20 @@ public class ModItems
                 () -> new Item(new Item.Properties()));
 
         public static final RegistryObject<Item> CRYSTAL_DETECTOR = ITEMS.register("crystal_detector",
-                () -> new CrystalDetectorItem(new Item.Properties().durability(256).stacksTo(1)));
+                () -> new CrystalDetectorItem(new Item.Properties().stacksTo(1).durability(256)));
+
 
 
         public static final RegistryObject<Item> CRYSTAL_SWORD = ITEMS.register("crystal_sword",
-                () -> new SwordItem(ModToolTiers.CRYSTAL, 4, 2, new Item.Properties().durability(200).stacksTo(1)));
+                () -> new SwordItem(ModToolTiers.CRYSTAL, 4, 2, new Item.Properties()));
         public static final RegistryObject<Item> CRYSTAL_PICKAXE = ITEMS.register("crystal_pickaxe",
-                () -> new PickaxeItem(ModToolTiers.CRYSTAL, 1, 1, new Item.Properties().durability(200).stacksTo(1)));
+                () -> new PickaxeItem(ModToolTiers.CRYSTAL, 1, 1, new Item.Properties()));
         public static final RegistryObject<Item> CRYSTAL_SHOVEL = ITEMS.register("crystal_shovel",
-                () -> new ShovelItem(ModToolTiers.CRYSTAL, 0, 0, new Item.Properties().durability(150).stacksTo(1)));
+                () -> new ShovelItem(ModToolTiers.CRYSTAL, 0, 0, new Item.Properties()));
         public static final RegistryObject<Item> CRYSTAL_AXE = ITEMS.register("crystal_axe",
-                () -> new AxeItem(ModToolTiers.CRYSTAL, 6, 1, new Item.Properties().durability(200).stacksTo(1)));
+                () -> new AxeItem(ModToolTiers.CRYSTAL, 6, 1, new Item.Properties()));
         public static final RegistryObject<Item> CRYSTAL_HOE = ITEMS.register("crystal_hoe",
-                () -> new HoeItem(ModToolTiers.CRYSTAL, 0, 0, new Item.Properties().durability(100).stacksTo(1)));
+                () -> new HoeItem(ModToolTiers.CRYSTAL, 0, 0, new Item.Properties()));
 
 
         public static final RegistryObject<Item> CRYSTAL_COAL = ITEMS.register("crystal_coal",
