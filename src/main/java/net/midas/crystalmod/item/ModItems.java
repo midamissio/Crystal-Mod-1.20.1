@@ -3,6 +3,7 @@ package net.midas.crystalmod.item;
 import net.midas.crystalmod.CrystalMod;
 import net.midas.crystalmod.item.custom.CrystalDetectorItem;
 import net.midas.crystalmod.item.custom.FuelItem;
+import net.midas.crystalmod.util.ModArmorMaterial;
 import net.midas.crystalmod.util.ModToolTiers;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -36,6 +37,32 @@ public class ModItems
                 () -> new AxeItem(ModToolTiers.CRYSTAL, 6, 1, new Item.Properties()));
         public static final RegistryObject<Item> CRYSTAL_HOE = ITEMS.register("crystal_hoe",
                 () -> new HoeItem(ModToolTiers.CRYSTAL, 0, 0, new Item.Properties()));
+
+        public static final RegistryObject<ArmorItem> CRYSTAL_HELMET = ITEMS.register("crystal_helmet",
+                () -> new ArmorItem(
+                        ModArmorMaterialInit.CRYSTAL,
+                        ArmorItem.Type.HELMET,
+                        new Item.Properties()
+                ));
+        public static final RegistryObject<ArmorItem> CRYSTAL_CHESTPLATE = ITEMS.register("crystal_chestplate",
+                () -> new ArmorItem(
+                        ModArmorMaterialInit.CRYSTAL,
+                        ArmorItem.Type.CHESTPLATE,
+                        new Item.Properties()
+                ));
+        public static final RegistryObject<ArmorItem> CRYSTAL_LEGGINGS = ITEMS.register("crystal_leggings",
+                () -> new ArmorItem(
+                        ModArmorMaterialInit.CRYSTAL,
+                        ArmorItem.Type.LEGGINGS,
+                        new Item.Properties()
+                ));
+        public static final RegistryObject<ArmorItem> CRYSTAL_BOOTS = ITEMS.register("crystal_boots",
+                () -> new ArmorItem(
+                        ModArmorMaterialInit.CRYSTAL,
+                        ArmorItem.Type.BOOTS,
+                        new Item.Properties()
+                ));
+
 
 
         public static final RegistryObject<Item> CRYSTAL_COAL = ITEMS.register("crystal_coal",

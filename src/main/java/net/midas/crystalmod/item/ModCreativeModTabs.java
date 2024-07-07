@@ -34,6 +34,11 @@ public class ModCreativeModTabs
                        pOutput.accept(ModItems.CRYSTAL_SWORD.get());
                        pOutput.accept(ModItems.CRYSTAL_SHOVEL.get());
 
+                       pOutput.accept(ModItems.CRYSTAL_HELMET.get());
+                       pOutput.accept(ModItems.CRYSTAL_CHESTPLATE.get());
+                       pOutput.accept(ModItems.CRYSTAL_LEGGINGS.get());
+                       pOutput.accept(ModItems.CRYSTAL_BOOTS.get());
+
                        pOutput.accept(ModItems.CRYSTAL_COAL.get());
                    })
                    .build());

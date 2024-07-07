@@ -11,6 +11,11 @@
   "item.crystal_mod.crystal_shovel": "Crystal Shovel",
   "item.crystal_mod.crystal_hoe": "Crystal Hoe",
 
+  "item.crystal_mod.crystal_helmet": "Crystal Helmet",
+  "item.crystal_mod.crystal_chestplate": "Crystal Chestplate",
+  "item.crystal_mod.crystal_leggings": "Crystal Leggings",
+  "item.crystal_mod.crystal_boots": "Crystal Boots",
+
   "block.crystal_mod.crystal_block": "Block of Crystal",
 
   "block.crystal_mod.crystal_ore": "Crystal Ore",
