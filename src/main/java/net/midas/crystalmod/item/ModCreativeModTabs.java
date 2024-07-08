@@ -25,6 +25,7 @@ public class ModCreativeModTabs
                        pOutput.accept(ModBlocks.CRYSTAL_BLOCK.get());
 
                        pOutput.accept(ModBlocks.CRYSTAL_ORE.get());
+                       pOutput.accept(ModBlocks.DEEPSLATE_CRYSTAL_ORE.get());
 
                        pOutput.accept(ModItems.CRYSTAL_DETECTOR.get());
 

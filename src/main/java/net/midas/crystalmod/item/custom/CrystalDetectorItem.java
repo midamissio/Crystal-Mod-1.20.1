@@ -77,4 +77,10 @@ public class CrystalDetectorItem extends Item
     {
         return state.is(ModTags.Blocks.CRYSTAL_DETECTOR_VALUABLES);
     }
+
+    @Override
+    public boolean isValidRepairItem(ItemStack pStack, ItemStack pRepairCandidate)
+    {
+        return super.isValidRepairItem(pStack, pRepairCandidate);
+    }
 }

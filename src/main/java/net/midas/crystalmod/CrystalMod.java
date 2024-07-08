@@ -48,10 +48,36 @@ public class CrystalMod
 
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
+        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS)
+        {
+            event.accept(ModBlocks.CRYSTAL_BLOCK);
+        }
+        if(event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS)
+        {
+            event.accept(ModBlocks.CRYSTAL_ORE);
+            event.accept(ModBlocks.DEEPSLATE_CRYSTAL_ORE);
+        }
+        if(event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES)
+        {
+            event.accept(ModItems.CRYSTAL_PICKAXE);
+            event.accept(ModItems.CRYSTAL_AXE);
+            event.accept(ModItems.CRYSTAL_SHOVEL);
+            event.accept(ModItems.CRYSTAL_HOE);
+            event.accept(ModItems.CRYSTAL_DETECTOR);
+        }
+        if(event.getTabKey() == CreativeModeTabs.COMBAT)
+        {
+            event.accept(ModItems.CRYSTAL_SWORD);
+            event.accept(ModItems.CRYSTAL_HELMET);
+            event.accept(ModItems.CRYSTAL_CHESTPLATE);
+            event.accept(ModItems.CRYSTAL_LEGGINGS);
+            event.accept(ModItems.CRYSTAL_BOOTS);
+        }
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS)
         {
             event.accept(ModItems.CRYSTAL_SHARD);
             event.accept(ModItems.CRYSTAL);
+            event.accept(ModItems.CRYSTAL_COAL);
         }
     }
 
