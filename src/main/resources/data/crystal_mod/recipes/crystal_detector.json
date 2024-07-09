@@ -17,5 +17,6 @@
   "result": {
   "item": "crystal_mod:crystal_detector",
   "count": 1
-  }
+  },
+  "show_notification": true
 }

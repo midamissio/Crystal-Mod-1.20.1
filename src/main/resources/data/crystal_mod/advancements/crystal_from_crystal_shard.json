@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "crystal_mod:crystal_from_crystal_shard"
+    ]
+  },
+  "criteria": {
+    "has_crystal_shard": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "crystal_mod:crystal_shard"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "crystal_mod:crystal_from_crystal_shard"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_crystal_shard",
+      "has_the_recipe"
+    ]
+  ]
+}

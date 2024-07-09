@@ -9,5 +9,6 @@
   "result": {
     "item": "crystal_mod:crystal",
     "count": 9
-  }
+  },
+  "show_notification": true
 }

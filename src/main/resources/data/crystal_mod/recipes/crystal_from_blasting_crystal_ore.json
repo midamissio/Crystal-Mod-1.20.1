@@ -7,5 +7,6 @@
   "ingredient": {
     "item": "crystal_mod:crystal_ore"
   },
-  "result": "crystal_mod:crystal"
+  "result": "crystal_mod:crystal",
+  "show_notification": true
 }

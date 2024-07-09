@@ -9,5 +9,6 @@
   "result": {
     "item": "crystal_mod:crystal_shard",
     "count": 4
-  }
+  },
+  "show_notification": true
 }
